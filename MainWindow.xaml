@@ -1,0 +1,34 @@
+﻿<Window x:Class="piotrek.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nadaj Przesyłkę - 12345" Height="400" Width="400">
+    <Grid>
+        <GroupBox Header="Rodzaj Przesyłki" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+            <StackPanel>
+                <RadioButton Name="rbPocztowka" Content="Pocztówka" IsChecked="True"/>
+                <RadioButton Name="rbList" Content="List"/>
+                <RadioButton Name="rbPaczka" Content="Paczka"/>
+            </StackPanel>
+        </GroupBox>
+
+ 
+        <GroupBox Header="Adres" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0">
+            <StackPanel>
+                <Label Content="Ulica z numerem:"/>
+                <TextBox Name="txtUlica"/>
+                <Label Content="Kod pocztowy:"/>
+                <TextBox Name="txtKodPocztowy"/>
+                <Label Content="Miasto:"/>
+                <TextBox Name="txtMiasto"/>
+            </StackPanel>
+        </GroupBox>
+
+        <Button Name="btnSprawdzCene" Content="Sprawdź Cenę" HorizontalAlignment="Left" Margin="147,225,0,0" VerticalAlignment="Top" Click="btnSprawdzCene_Click"/>
+
+        <Image Name="imgPrzesylka" Width="100" Height="100" HorizontalAlignment="Left" Margin="86,274,0,0" VerticalAlignment="Top"/>
+
+        <Label Name="lblCena" Content="Cena: " FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="10,260,0,0" VerticalAlignment="Top"/>
+
+        <Button Name="btnZatwierdz" Content="Zatwierdź" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Click="btnZatwierdz_Click"/>
+    </Grid>
+</Window>
