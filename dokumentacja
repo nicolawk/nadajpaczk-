@@ -1,0 +1,15 @@
+/*******************************************************
+  nazwa funkcji:       btnSprawdzCene_Click
+  parametry wejściowe: sender - obiekt wywołujący, e - argument zdarzenia
+  wartość zwracana:    zdjecie i cena
+  informacje:          Funkcja sprawdza wybraną przesyłkę i zmienia obrazek oraz cenę.
+  autor:               Nicola Wójcikowska 
+*******************************************************/
+ 
+/*******************************************************
+  nazwa funkcji:       btnZatwierdz_Click
+  parametry wejściowe: sender - obiekt wywołujący, e - argument zdarzenia
+  wartość zwracana:    zatwierdz klik po formie 
+  informacje:          Funkcja waliduje kod pocztowy i wyświetla odpowiedni komunikat.
+  autor:              Nicola Wójcikowska 
+*******************************************************/
